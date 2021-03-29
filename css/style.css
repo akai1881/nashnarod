@@ -1,59 +1,45 @@
 /* FONTS 
 ==============================*/
 @font-face {
-    font-family: "SF Ultralight";
-    font-weight: normal;
-    src: local("SF UI Display Ultralight"),
-        url("sf-ui-display-ultralight-58646b19bf205.woff") format("woff");
-}
-
-@font-face {
-    font-family: "SF Thin";
-    font-weight: 300;
-    src: local("SF UI Display Thin"),
-        url("sf-ui-display-thin-58646e9b26e8b.woff") format("woff");
-}
-
-@font-face {
     font-family: "SF Light";
     font-weight: 400;
     src: local("../fonts/sf-ui-display-light-58646b33e0551.woff"),
-        url("../fonts/sf-ui-display-light-58646b33e0551.woff") format("woff");
+    url("../fonts/sf-ui-display-light-58646b33e0551.woff") format("woff");
 }
 
 @font-face {
     font-family: "SF Medium";
     font-weight: 500;
     src: local("../fonts/sf-ui-display-medium-58646be638f96.woff"),
-        url("../fonts/sf-ui-display-medium-58646be638f96.woff") format("woff");
+    url("../fonts/sf-ui-display-medium-58646be638f96.woff") format("woff");
 }
 
 @font-face {
     font-family: "SF Semibold";
     font-weight: 600;
     src: local("../fonts/sf-ui-display-semibold-58646eddcae92.woff"),
-        url("../fonts/sf-ui-display-semibold-58646eddcae92.woff") format("woff");
+    url("../fonts/sf-ui-display-semibold-58646eddcae92.woff") format("woff");
 }
 
 @font-face {
     font-family: "SF Bold";
     font-weight: 700;
     src: local("../fonts/sf-ui-display-bold-58646a511e3d9.woff"),
-        url("../fonts/sf-ui-display-bold-58646a511e3d9.woff") format("woff");
+    url("../fonts/sf-ui-display-bold-58646a511e3d9.woff") format("woff");
 }
 
 @font-face {
     font-family: "SF Heavy";
     font-weight: 800;
     src: local("../fonts/sf-ui-display-heavy-586470160b9e5.woff"),
-        url("../fonts/sf-ui-display-heavy-586470160b9e5.woff") format("woff");
+    url("../fonts/sf-ui-display-heavy-586470160b9e5.woff") format("woff");
 }
 
 @font-face {
     font-family: "SF Black";
     font-weight: 900;
     src: local("../fonts/sf-ui-display-black-58646a6b80d5a.woff"),
-        url("../fonts/sf-ui-display-black-58646a6b80d5a.woff") format("woff");
+    url("../fonts/sf-ui-display-black-58646a6b80d5a.woff") format("woff");
 }
 
 /*==========================*/
@@ -356,6 +342,7 @@ header {
     position: absolute;
     width: 63%;
     right: 70px;
+    bottom: 0;
 }
 
 /* PRIORITIES SECTION
